@@ -14,7 +14,27 @@ const routes: Routes = [
   {
     path: 'circulo-de-fogo',
     loadChildren: () => import('./circulo-de-fogo/circulo-de-fogo.module').then( m => m.CirculoDeFogoPageModule)
+  },  {
+    path: 'gigantes-de-aco',
+    loadChildren: () => import('./gigantes-de-aco/gigantes-de-aco.module').then( m => m.GigantesDeAcoPageModule)
   },
+  {
+    path: 'venom',
+    loadChildren: () => import('./venom/venom.module').then( m => m.VenomPageModule)
+  },
+  {
+    path: 'detona-ralph',
+    loadChildren: () => import('./detona-ralph/detona-ralph.module').then( m => m.DetonaRalphPageModule)
+  },
+  {
+    path: 'karate-kid',
+    loadChildren: () => import('./karate-kid/karate-kid.module').then( m => m.KarateKidPageModule)
+  },
+  {
+    path: 'um-lugar-silencioso',
+    loadChildren: () => import('./um-lugar-silencioso/um-lugar-silencioso.module').then( m => m.UmLugarSilenciosoPageModule)
+  },
+
 ];
 
 @NgModule({

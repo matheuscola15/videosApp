@@ -1,17 +1,36 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>venom</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>Venom</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-thumbnail>
-      <img src="https://upload.wikimedia.org/wikipedia/en/1/10/Venom_%282018_film%29_poster.png" alt="">
-    </ion-thumbnail>
-    <ion-label>
-      Venom
-    </ion-label>
-    <ion-button routerLink="/home">Voltar</ion-button>
-  </ion-item>
+<ion-content color="light">
+
+  <ion-card>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg" alt="">
+      </ion-thumbnail>
+      <ion-label>Venom</ion-label>
+      <ion-button fill="outline" slot="end" routerLink="/home" color="danger">Voltar</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-text color="danger"><strong>Gêneros:</strong></ion-text>
+      <ion-badge slot="start">Ação</ion-badge>
+      <ion-badge slot="start">Ficção Científica</ion-badge>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Data de Estreia:</strong></ion-text><strong> 10/05/2018</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Duração do filme:</strong></ion-text><strong> 1h 52m</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <strong><ion-text color="danger">Sinopse:</ion-text> O jornalista investigativo Eddie Brock tenta um retorno após um escândalo, mas acidentalmente se torna o anfitrião de Venom, um simbionte alienígena violento e super poderoso. Em breve, ele deve confiar em seus novos poderes para proteger o mundo de uma organização sombria que procura um simbionte próprio.</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Veja o trailer: </strong></ion-text><a href="https://www.youtube.com/watch?v=EQxCycVTfcU&ab_channel=Ingresso.com"> Clique aqui</a>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -1,17 +1,37 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>gigantes-de-aco</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>Gigantes de Açp</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-thumbnail>
-      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSv7q5madUq_7-AxNCnz7PfbPKF-NWo-1F_dn6AfafquU9Doiz_" alt="">
-    </ion-thumbnail>
-    <ion-label>
-      Gigantes de Aço
-    </ion-label>
-    <ion-button routerLink="/home">Voltar</ion-button>
-  </ion-item>
+<ion-content color="light">
+
+  <ion-card>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSv7q5madUq_7-AxNCnz7PfbPKF-NWo-1F_dn6AfafquU9Doiz_" alt="">
+      </ion-thumbnail>
+      <ion-label>Gigantes de Aço</ion-label>
+      <ion-button fill="outline" slot="end" routerLink="/home" color="danger">Voltar</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-text color="danger"><strong>Gêneros:</strong></ion-text>
+      <ion-badge slot="start">Ação</ion-badge>
+      <ion-badge slot="start">Ficção Científica</ion-badge>
+      <ion-badge slot="start">Drama</ion-badge>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Data de Estreia:</strong></ion-text><strong> 21/10/2011</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Duração do filme:</strong></ion-text><strong> 2h 7m </strong>
+    </ion-card-content>
+    <ion-card-content>
+      <strong><ion-text color="danger">Sinopse:</ion-text> Charlie Kenton é um lutador fracassado que se aposentou dos ringues quando os robôs assumiram o controle do esporte. Depois que seu robô é destruído, ele relutantemente se une a seu filho distante para reconstruir e treinar um candidato improvável.</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Veja o trailer: </strong></ion-text><a href="https://www.youtube.com/watch?v=LwvkjZCMAwQ&ab_channel=newmoviebrasil"> Clique aqui</a>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -27,6 +27,7 @@
 
 ion-title{
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 ion-label{
   margin-left: 2%;
@@ -37,3 +38,11 @@ ion-thumbnail{
     border-radius: 5%;
   }
 }
+ion-badge{
+  margin-left: 1%;
+  background-color: red;
+}
+
+
+
+

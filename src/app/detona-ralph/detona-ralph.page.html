@@ -1,17 +1,38 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>detona-ralph</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>Detona Ralph</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-thumbnail>
-      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWoVrLkYTcPDXNM8NA8sbe8-DIqqNHVOAKizhwjZVAgUe3rfo-" alt="">
-    </ion-thumbnail>
-    <ion-label>
-      Detona Ralph
-    </ion-label>
-    <ion-button routerLink="/home">Voltar</ion-button>
-  </ion-item>
+<ion-content color="light">
+
+  <ion-card>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWoVrLkYTcPDXNM8NA8sbe8-DIqqNHVOAKizhwjZVAgUe3rfo-" alt="">
+      </ion-thumbnail>
+      <ion-label>Detona Ralph</ion-label>
+      <ion-button fill="outline" slot="end" routerLink="/home" color="danger">Voltar</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-text color="danger"><strong>Gêneros:</strong></ion-text>
+      <ion-badge slot="start">Família</ion-badge>
+      <ion-badge slot="start">Animação</ion-badge>
+      <ion-badge slot="start">Aventura</ion-badge>
+      <ion-badge slot="start">Comédia</ion-badge>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Data de Estreia:</strong></ion-text><strong> 01/04/2013</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Duração do filme:</strong></ion-text><strong> 1h 41m </strong>
+    </ion-card-content>
+    <ion-card-content>
+      <strong><ion-text color="danger">Sinopse:</ion-text> Ralph está cansado de ser desprezado no seu próprio jogo de fliperama. Para ganhar a atenção do herói Felix e todos os outros personagens, o vilão tem um plano e sai em busca de uma medalha, com a intenção de provar o seu valor.</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Veja o trailer: </strong></ion-text><a href="https://www.youtube.com/watch?v=MsoG4LnjhL0&ab_channel=WaltDisneyStudiosBR"> Clique aqui</a>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

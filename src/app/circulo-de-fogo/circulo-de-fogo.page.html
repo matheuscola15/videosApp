@@ -1,17 +1,39 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Circulo de Fogo</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>Círculo de Fogo</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-thumbnail>
-      <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uFaWzdxzITZxHKaKwyG26QfzHiG.jpg" alt="">
-    </ion-thumbnail>
-    <ion-label>
-      Círculo de Fogo
-    </ion-label>
-    <ion-button routerLink="/home">Voltar</ion-button>
-  </ion-item>
+<ion-content color="light">
+
+  <ion-card>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mmznhaQDwlHWpUwKuNxtQiubbmM.jpg" alt="">
+      </ion-thumbnail>
+      <ion-label>Círculo de Fogo</ion-label>
+      <ion-button fill="outline" slot="end" routerLink="/home" color="danger">Voltar</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-text color="danger"><strong>Gêneros:</strong></ion-text>
+      <ion-badge slot="start">Ação</ion-badge>
+      <ion-badge slot="start">Ficção Científica</ion-badge>
+      <ion-badge slot="start">Aventura</ion-badge>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Data de Estreia:</strong></ion-text><strong> 08/09/2013</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Duração do filme:</strong></ion-text><strong> 2h 11m</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <strong><ion-text color="danger">Sinopse:</ion-text> À medida que a guerra entre a humanidade e as monstruosas criaturas marinhas continua, 
+        um ex-piloto e um estagiário se unem para dirigir uma arma especial aparentemente obsoleta 
+        em um esforço desesperado para salvar o mundo.</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Veja o trailer: </strong></ion-text><a href="https://www.youtube.com/watch?v=R7J3RJcxv58&ab_channel=WarnerBros.PicturesBrasil"> Clique aqui</a>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

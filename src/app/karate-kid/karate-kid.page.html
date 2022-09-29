@@ -1,17 +1,38 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>karate-kid</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>The Karate Kid</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-thumbnail>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmjRtXMh2bqF_Kl8690Ue4QDGHRIBTHqXaw&usqp=CAU" alt="">
-    </ion-thumbnail>
-    <ion-label>
-      Karatê Kid
-    </ion-label>
-    <ion-button routerLink="/home">Voltar</ion-button>
-  </ion-item>
+<ion-content color="light">
+
+  <ion-card>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tAMQREOoztvluqrfHiGHFVfB04B.jpg" alt="">
+      </ion-thumbnail>
+      <ion-label>The Karate Kid</ion-label>
+      <ion-button fill="outline" slot="end" routerLink="/home" color="danger">Voltar</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-text color="danger"><strong>Gêneros:</strong></ion-text>
+      <ion-badge slot="start">Ação</ion-badge>
+      <ion-badge slot="start">Aventura</ion-badge>
+      <ion-badge slot="start">Drama</ion-badge>
+      <ion-badge slot="start">Família</ion-badge>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Data de Estreia:</strong></ion-text><strong> 08/27/2010</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Duração do filme:</strong></ion-text><strong> 1h 52m</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <strong><ion-text color="danger">Sinopse:</ion-text> Dre Parker, de 12 anos, poderia ter sido o garoto mais popular de Detroit, mas a última mudança na carreira de sua mãe o levou para a China. Dre imediatamente se apaixona por sua colega de classe Mei Ying, mas as diferenças culturais tornam essa amizade impossível. Pior ainda, os sentimentos de Dre o tornam um inimigo do valentão da classe, Cheng. Sem amigos em uma terra estranha, Dre não tem para onde ir além do mantenedor Sr. Han, que é um mestre de kung fu. Enquanto Han ensina a Dre que o kung fu não é sobre socos e defesas, mas maturidade e calma, Dre percebe que enfrentar os valentões será a luta de sua vida.</strong>
+    </ion-card-content>
+    <ion-card-content>
+      <ion-text color="danger"><strong>Veja o trailer: </strong></ion-text><a href="https://www.youtube.com/watch?v=XY8amUImEu0&ab_channel=SonyPicturesEntertainment"> Clique aqui</a>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
